@@ -24,3 +24,4 @@ Math.matrix.add=function(a,b){
 	}
 	
 }
+//multiply

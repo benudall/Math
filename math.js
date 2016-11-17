@@ -1,7 +1,5 @@
-_math={};
-
-_math.matrix={};
-_math.matrix.add=function(a,b){
+Math.matrix={};
+Math.matrix.add=function(a,b){
 	if(a.length==b.length){
 		var equalcolumns=0;
 		for(var x=0;x<a.length;x++){

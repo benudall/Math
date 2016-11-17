@@ -1,2 +1,2 @@
-# math
-Various math functions for JS
+# MoreMath
+Expands the JS Math object to include more functions

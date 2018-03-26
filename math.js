@@ -82,3 +82,25 @@ Math.matrix.multiply=function(a,b){
 		console.log("Matrices are not mulitplicable")
 	}
 }
+Math.array={};
+Math.array.max=function(arr){
+	var max = arr.reduce(function(a, b) {
+		return Math.max(a, b);
+	});
+	return max;
+}
+Math.isInt=function(a){
+	return Math.round(a)===a;
+}
+Math.factors=function(a){
+	var factors=[];
+	for(var x=1;x<=a;x++){
+		if(Math.isInt(a/x)){
+			factors.push(x);
+		}
+	}
+	return factors;
+}
+Math.hcf=function(a,b){
+	
+}
